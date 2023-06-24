@@ -1,13 +1,9 @@
 # Randomness 1
-An experiment in random music.
-
-Inspired by Arvo Pärt, a random melody in D major, accompanied by a tintinnabuli D Major triad.  The phrasing is stolen from his Für Alina.
+Inspired by Arvo Pärt, an experiment in minimalist random music.
 
 ```node randomness1.js > randomness1.mid```
 
-Then import the midi file into your DAW etc.
-
-I used Ableton with the Native Instruments Grandeur piano:-
+Then import the MIDI file into your DAW etc.
 
 https://youtu.be/BcOwzqR0Mcw
 
