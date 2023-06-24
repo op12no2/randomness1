@@ -6,7 +6,7 @@ npm install midi-writer-js
 node randomness1.js > randomness1.mid
 ```
 
-Then import the MIDI file into your DAW etc.
+Then import the MIDI file into your DAW etc. Obviously you'll get a different melody each time you run ```randomness1.js```.
 
 https://youtu.be/BcOwzqR0Mcw
 
