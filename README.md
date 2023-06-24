@@ -9,4 +9,4 @@ https://youtu.be/BcOwzqR0Mcw
 
 ## Acknowledgements
 
-MidiWriterJS - https://github.com/grimmdude/MidiWriterJS by @grimmdude
+MidiWriterJS - https://github.com/grimmdude/MidiWriterJS
