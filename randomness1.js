@@ -5,8 +5,8 @@ const reps      = 5;
 const duration  = [1,4, 1,1,4, 1,1,1,4, 1,1,1,1,4, 1,1,1,1,1,4, 1,1,1,1,1,1,4, 1,1,1,1,1,1,1,4, 1,1,1,1,1,1,1,4, 1,1,1,1,1,1,4, 1,1,1,1,1,4, 1,1,1,1,4, 1,1,1,4, 1,1,4, 1,4];
 const accent    = [1,1, 1,2,1, 1,2,2,1, 1,2,3,2,1, 1,2,3,3,2,1, 1,2,3,4,3,2,1, 1,2,3,4,4,3,2,1, 1,2,3,4,4,3,2,1, 1,2,3,4,3,2,1, 1,2,3,3,2,1, 1,2,3,2,1, 1,2,2,1, 1,2,1, 1,1];
 const scale     = [62,64,66,67,69,71,73]; // d maj.
-const triad     = [62,66,69];
-const moct      = -12;
+const triad     = [62,66,69];             // d maj.
+const moct      = -12;                    
 const toct      = -24;
 const cres      = 9;
 const vol       = 20;
@@ -64,7 +64,7 @@ for (var i=0; i < len; i++) {
     console.log('oops 2');
   }
 
-  mnotes.addEvent(new MidiWriter.NoteEvent({pitch: [m+moct,t+toct], duration: 'T' + h, velocity: v}));
+  mnotes.addEvent(new MidiWriter.NoteEvent({pitch: [m + moct, t + toct], duration: 'T' + h, velocity: v}));
 }
 
 var write = new MidiWriter.Writer(mnotes);
