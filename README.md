@@ -8,6 +8,8 @@ node randomness1.js > randomness1.mid
 
 Then import the MIDI file into your DAW etc. You'll get a different melody each time you run ```randomness1.js```.
 
+Example result here:-
+
 https://youtu.be/BcOwzqR0Mcw
 
 ## Acknowledgements
