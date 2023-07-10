@@ -10,7 +10,7 @@ Then import the MIDI file into your DAW etc. You'll get a different melody each 
 
 Example result here:-
 
-https://youtu.be/BcOwzqR0Mcw
+https://soundcloud.com/colin-jenkins-200567684/randomness-1
 
 ## Acknowledgements
 
